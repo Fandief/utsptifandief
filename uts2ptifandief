@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Portofolio</title>
+  <style>
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: 50px auto;
+      padding: 20px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    img {
+      max-width: 200px;
+      display: block;
+      margin: 20px auto;
+      border-radius: 50%;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 10px;
+    }
+
+    .skills {
+      margin-top: 30px;
+    }
+
+    .bar {
+      background-color: #007bff;
+      height: 20px;
+      margin-bottom: 10px;
+    }
+
+    .contact {
+      margin-top: 30px;
+    }
+
+    .contact ul {
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+    }
+
+    .contact ul li {
+      display: flex;
+      align-items: center;
+    }
+
+    .contact ul li img {
+      max-width: 20px;
+      margin-right: 5px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>About Me</h1>
+    <img src="foto formal jas.jpg" alt="Profile Picture">
+    <ul>
+      <li><strong>Name   :</strong> Fandi Febrian W</li>
+      <li><strong>Birth  :</strong> Bekasi, 5 Februari 2004</li>
+      <li><strong>Hobby  :</strong> Travelling and Hiking</li>
+      <li><strong>work   :</strong> College Student</li>
+      <p>Saya adalah salah satu mahasiswa prodi Informatika di Universitas Sultan Ageng Tirtayasa. Di dalam studi ini saya mendapatkan pengetahuan dan keterampilan dalam pemrograman, dan disini saya membuat web portofolio dengan bertujuan memenuhi tapahan salah satu mata kuliah (UTS).</p>
+      <p>Di dalam pemrograman itu sendiri terdapat beberapa bahasa. Berikut macam bahasa di pemrograman beserta tingkat pemahaman saya;</p>
+    </ul>
+
+    <div class="skills">
+      <h2>Skills</h2>
+      <ul>
+        <li>
+          <strong>C:</strong> 80%
+          <div class="bar" style="width: 80%;"></div>
+        </li>
+        <li>
+          <strong>C++:</strong> 80%
+          <div class="bar" style="width: 80%;"></div>
+        </li>
+        <li>
+          <strong>JavaScript:</strong> 50%
+          <div class="bar" style="width: 50%;"></div>
+        </li>
+        <li>
+          <strong>Python:</strong> 60%
+          <div class="bar" style="width: 60%;"></div>
+        </li>
+      </ul>
+    </div>
+
+    <div class="contact">
+      <h2>Contact Us</h2>
+      <ul>
+        <li>
+          <img src="logo rumah.png" alt="Address">
+          Jl. Raya Narogong KM11, Kota Bekasi.
+        </li>
+        <li>
+        <img src="logo ig.png" alt="Instagram">
+          <a href="https://www.instagram.com/fwxfd" target="_blank">@fwxfd</a>
+        </li>
+        <li>
+          <img src="logo wa.png" alt="WhatsApp">
+          <a href="https://wa.me/6285156689642" target="_blank">085156689642</a> 
+          
